@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect, useId } from 'react';
-import { Download, Share2, FileJson, FileText, Copy, Check, Camera } from 'lucide-react';
+import { Download, Share2, FileJson, FileText, Copy, Check } from 'lucide-react';
 import { Stat } from '@/components/InfoDisplay';
 import CopyButton from '@/components/CopyButton';
 import ViewportCard from '@/components/cards/ViewportCard';
@@ -13,13 +13,7 @@ import { useScreenInfo } from '@/hooks/useScreenInfo';
 import { useMediaQueries } from '@/hooks/useMediaQueries';
 import { useFeatureDetection } from '@/hooks/useFeatureDetection';
 import { copyToClipboard } from '@/utils/clipboard';
-import {
-  buildCopyText,
-  buildJsonExport,
-  buildMarkdownExport,
-  downloadFile,
-  captureScreenshot
-} from '@/utils/export';
+import { buildCopyText, buildJsonExport, buildMarkdownExport, downloadFile } from '@/utils/export';
 
 /* ── Export dropdown ── */
 
@@ -27,13 +21,11 @@ function ExportMenu({
   onCopy,
   onJson,
   onMarkdown,
-  onScreenshot,
   onShare
 }: {
   onCopy: () => Promise<boolean>;
   onJson: () => void;
   onMarkdown: () => void;
-  onScreenshot: () => void;
   onShare: (() => void) | null;
 }) {
   const [open, setOpen] = useState(false);
@@ -43,7 +35,7 @@ function ExportMenu({
   const triggerRef = useRef<HTMLButtonElement>(null);
   const itemRefs = useRef<Array<HTMLButtonElement | null>>([]);
   const timerRef = useRef<ReturnType<typeof setTimeout>>(undefined);
-  const visibleItems = 4 + (onShare ? 1 : 0);
+  const visibleItems = 3 + (onShare ? 1 : 0);
 
   useEffect(() => {
     return () => {
@@ -123,7 +115,7 @@ function ExportMenu({
         className="inline-flex items-center gap-1.5 rounded-lg border border-gray-200 bg-white px-3 py-1.5 text-xs font-medium text-gray-600 transition-colors hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700"
       >
         <Download className="h-3.5 w-3.5" />
-        Export
+        Export Report
       </button>
 
       {open && (
@@ -142,7 +134,7 @@ function ExportMenu({
             className="flex w-full items-center gap-2 px-3 py-2 text-left text-sm hover:bg-gray-50 dark:hover:bg-gray-700"
           >
             {copied ? <Check className="h-4 w-4 text-success" /> : <Copy className="h-4 w-4" />}
-            {copied ? 'Copied!' : 'Copy as text'}
+            {copied ? 'Copied!' : 'Copy Summary'}
           </button>
           <button
             ref={(el) => {
@@ -172,24 +164,10 @@ function ExportMenu({
             <FileText className="h-4 w-4" />
             Download Markdown
           </button>
-          <button
-            ref={(el) => {
-              itemRefs.current[3] = el;
-            }}
-            onClick={() => {
-              onScreenshot();
-              setOpen(false);
-            }}
-            role="menuitem"
-            className="flex w-full items-center gap-2 px-3 py-2 text-left text-sm hover:bg-gray-50 dark:hover:bg-gray-700"
-          >
-            <Camera className="h-4 w-4" />
-            Save as Image
-          </button>
           {onShare && (
             <button
               ref={(el) => {
-                itemRefs.current[4] = el;
+                itemRefs.current[3] = el;
               }}
               onClick={() => {
                 onShare();
@@ -199,7 +177,7 @@ function ExportMenu({
               className="flex w-full items-center gap-2 px-3 py-2 text-left text-sm hover:bg-gray-50 dark:hover:bg-gray-700"
             >
               <Share2 className="h-4 w-4" />
-              Share...
+              Share Summary
             </button>
           )}
         </div>
@@ -214,7 +192,6 @@ export default function Home() {
   const info = useScreenInfo();
   const features = useFeatureDetection();
   const mediaQueries = useMediaQueries();
-  const reportRef = useRef<HTMLDivElement>(null);
   const { showToast } = useToast();
 
   const canShare = typeof navigator.share === 'function';
@@ -257,21 +234,8 @@ export default function Home() {
       });
   }
 
-  function handleScreenshot() {
-    if (reportRef.current) {
-      void captureScreenshot(reportRef.current)
-        .then(() => {
-          showToast('success', 'Screenshot saved as PNG.');
-        })
-        .catch((err) => {
-          console.error('Save as Image failed:', err);
-          showToast('error', 'Save as Image failed. Please try Download JSON/Markdown.');
-        });
-    }
-  }
-
   return (
-    <div ref={reportRef} className="mx-auto max-w-6xl px-4 py-8">
+    <div className="mx-auto max-w-6xl px-4 py-8">
       {/* Hero */}
       <div className="mb-8 grid gap-6 md:grid-cols-[minmax(0,1fr)_240px] md:items-end">
         <div className="animate-fade-up">
@@ -311,13 +275,13 @@ export default function Home() {
 
       <div className="mb-4 flex items-center justify-between gap-3">
         <p className="text-xs text-muted">
-          Export a concise report for QA docs, bug tickets, or cross-device audits.
+          Copy a quick summary or download structured data for QA docs, bug tickets, and
+          cross-device audits.
         </p>
         <ExportMenu
           onCopy={handleCopy}
           onJson={handleJsonExport}
           onMarkdown={handleMarkdownExport}
-          onScreenshot={handleScreenshot}
           onShare={canShare ? handleShare : null}
         />
       </div>
