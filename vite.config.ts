@@ -4,12 +4,18 @@ import tailwindcss from '@tailwindcss/vite';
 import { resolve } from 'path';
 import { writeFileSync } from 'fs';
 
-const DEFAULT_SITE_URL = 'https://cityray.github.io/mydevice';
+const DEFAULT_SITE_URL = 'https://cityray.github.io/MyDevice';
 
 const routes = ['/', '/devices', '/features', '/benchmark'];
 
 function normalizeSiteUrl(rawUrl: string): string {
   return rawUrl.replace(/\/+$/, '');
+}
+
+function getBasePath(siteUrl: string): string {
+  const pathname = new URL(`${siteUrl}/`).pathname.replace(/\/+$/, '');
+
+  return pathname ? `${pathname}/` : '/';
 }
 
 function seoAssetsPlugin(siteUrl: string): Plugin {
@@ -38,10 +44,11 @@ function seoAssetsPlugin(siteUrl: string): Plugin {
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
   const siteUrl = normalizeSiteUrl(env.VITE_SITE_URL || DEFAULT_SITE_URL);
+  const basePath = getBasePath(siteUrl);
 
   return {
     plugins: [react(), tailwindcss(), seoAssetsPlugin(siteUrl)],
-    base: '/mydevice/',
+    base: basePath,
     resolve: {
       alias: {
         '@': resolve('.', 'src')

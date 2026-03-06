@@ -18,7 +18,7 @@ npm install
 
 Create `.env.local` from `.env.example` and set site URL if needed:
 
-- `VITE_SITE_URL=https://cityray.github.io/mydevice`
+- `VITE_SITE_URL=https://cityray.github.io/MyDevice`
 - Do not include a trailing slash
 
 This variable is used by:
@@ -35,7 +35,7 @@ npm run dev
 
 Default local URL:
 
-- `http://localhost:5173/mydevice/`
+- `http://localhost:5173/MyDevice/`
 
 ## 4. Validate Device Data
 
@@ -99,25 +99,26 @@ The workflow sets `VITE_SITE_URL` automatically as:
 
 ### 6.3 Expected site URL
 
-- `https://cityray.github.io/mydevice/`
+- `https://cityray.github.io/MyDevice/`
 
 ## 7. Post-deploy Verification Checklist
 
-- Open homepage: `/mydevice/`
+- Open homepage: `/MyDevice/`
 - Open routes directly:
-  - `/mydevice/devices`
-  - `/mydevice/features`
-  - `/mydevice/benchmark`
+  - `/MyDevice/devices`
+  - `/MyDevice/features`
+  - `/MyDevice/benchmark`
 - Refresh each route and confirm SPA fallback works.
 - Confirm SEO assets are reachable:
-  - `/mydevice/robots.txt`
-  - `/mydevice/sitemap.xml`
+  - `/MyDevice/robots.txt`
+  - `/MyDevice/sitemap.xml`
 
 ## 8. Troubleshooting
 
 If deployment succeeds but pages are broken:
 
-- Check `vite.config.ts` has `base: '/mydevice/'`.
-- Check `src/main.tsx` uses `BrowserRouter basename="/mydevice"`.
+- Check `VITE_SITE_URL` matches the exact GitHub Pages path, including letter case.
+- Check `vite.config.ts` derives `base` from `VITE_SITE_URL`.
+- Check `src/main.tsx` uses `import.meta.env.BASE_URL` for `BrowserRouter basename`.
 - Ensure Pages source is set to `GitHub Actions`.
 - Re-run deployment after fixing configuration.

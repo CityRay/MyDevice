@@ -50,7 +50,7 @@ npm run preview
 ## Environment Variables
 
 - `VITE_SITE_URL` (optional for local, required for accurate SEO metadata in custom deploys)
-- Example value: `https://cityray.github.io/mydevice`
+- Example value: `https://cityray.github.io/MyDevice`
 - Do not include a trailing slash
 
 Create `.env.local` from `.env.example` (or copy values manually on Windows).

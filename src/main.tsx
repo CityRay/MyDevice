@@ -6,11 +6,13 @@ import { ToastProvider } from './components/ToastProvider';
 import App from './App';
 import './index.css';
 
+const routerBaseName = import.meta.env.BASE_URL.replace(/\/$/, '') || '/';
+
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <ErrorBoundary>
       <ToastProvider>
-        <BrowserRouter basename="/mydevice">
+        <BrowserRouter basename={routerBaseName}>
           <App />
         </BrowserRouter>
       </ToastProvider>
