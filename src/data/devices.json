@@ -1,0 +1,2175 @@
+[
+  {
+    "id": "apple-ipad-11-a16",
+    "brand": "Apple",
+    "name": "iPad (A16)",
+    "category": "tablet",
+    "releaseYear": 2025,
+    "screenSize": 10.9,
+    "resolution": {
+      "width": 2360,
+      "height": 1640
+    },
+    "cssViewport": {
+      "width": 1180,
+      "height": 820
+    },
+    "devicePixelRatio": 2,
+    "ppi": 264,
+    "platform": "iPadOS",
+    "osVersion": "18.0"
+  },
+  {
+    "id": "apple-ipad-air-11-m3",
+    "brand": "Apple",
+    "name": "iPad Air 11\" (M3)",
+    "category": "tablet",
+    "releaseYear": 2025,
+    "screenSize": 11,
+    "resolution": {
+      "width": 2360,
+      "height": 1640
+    },
+    "cssViewport": {
+      "width": 1180,
+      "height": 820
+    },
+    "devicePixelRatio": 2,
+    "ppi": 264,
+    "platform": "iPadOS",
+    "osVersion": "18.0"
+  },
+  {
+    "id": "apple-ipad-air-13-m3",
+    "brand": "Apple",
+    "name": "iPad Air 13\" (M3)",
+    "category": "tablet",
+    "releaseYear": 2025,
+    "screenSize": 13,
+    "resolution": {
+      "width": 2732,
+      "height": 2048
+    },
+    "cssViewport": {
+      "width": 1366,
+      "height": 1024
+    },
+    "devicePixelRatio": 2,
+    "ppi": 264,
+    "platform": "iPadOS",
+    "osVersion": "18.0"
+  },
+  {
+    "id": "apple-iphone-16e",
+    "brand": "Apple",
+    "name": "iPhone 16e",
+    "category": "smartphone",
+    "releaseYear": 2025,
+    "screenSize": 6.1,
+    "resolution": {
+      "width": 1170,
+      "height": 2532
+    },
+    "cssViewport": {
+      "width": 390,
+      "height": 844
+    },
+    "devicePixelRatio": 3,
+    "ppi": 460,
+    "platform": "iOS",
+    "osVersion": "18"
+  },
+  {
+    "id": "apple-iphone-17",
+    "brand": "Apple",
+    "name": "iPhone 17",
+    "category": "smartphone",
+    "releaseYear": 2025,
+    "screenSize": 6.3,
+    "resolution": {
+      "width": 1206,
+      "height": 2622
+    },
+    "cssViewport": {
+      "width": 402,
+      "height": 874
+    },
+    "devicePixelRatio": 3,
+    "ppi": 460,
+    "platform": "iOS",
+    "osVersion": "19.0"
+  },
+  {
+    "id": "apple-iphone-17-pro",
+    "brand": "Apple",
+    "name": "iPhone 17 Pro",
+    "category": "smartphone",
+    "releaseYear": 2025,
+    "screenSize": 6.3,
+    "resolution": {
+      "width": 1206,
+      "height": 2622
+    },
+    "cssViewport": {
+      "width": 402,
+      "height": 874
+    },
+    "devicePixelRatio": 3,
+    "ppi": 460,
+    "platform": "iOS",
+    "osVersion": "19.0"
+  },
+  {
+    "id": "apple-iphone-17-pro-max",
+    "brand": "Apple",
+    "name": "iPhone 17 Pro Max",
+    "category": "smartphone",
+    "releaseYear": 2025,
+    "screenSize": 6.9,
+    "resolution": {
+      "width": 1320,
+      "height": 2868
+    },
+    "cssViewport": {
+      "width": 440,
+      "height": 956
+    },
+    "devicePixelRatio": 3,
+    "ppi": 460,
+    "platform": "iOS",
+    "osVersion": "19.0"
+  },
+  {
+    "id": "apple-iphone-17-air",
+    "brand": "Apple",
+    "name": "iPhone Air",
+    "category": "smartphone",
+    "releaseYear": 2025,
+    "screenSize": 6.5,
+    "resolution": {
+      "width": 1260,
+      "height": 2736
+    },
+    "cssViewport": {
+      "width": 420,
+      "height": 912
+    },
+    "devicePixelRatio": 3,
+    "ppi": 460,
+    "platform": "iOS",
+    "osVersion": "19.0"
+  },
+  {
+    "id": "macbook-air-13-m4",
+    "brand": "Apple",
+    "name": "MacBook Air 13\" (M4)",
+    "category": "laptop",
+    "releaseYear": 2025,
+    "screenSize": 13.6,
+    "resolution": {
+      "width": 2560,
+      "height": 1664
+    },
+    "cssViewport": {
+      "width": 1280,
+      "height": 832
+    },
+    "devicePixelRatio": 2,
+    "ppi": 224,
+    "platform": "macOS"
+  },
+  {
+    "id": "macbook-air-15-m4",
+    "brand": "Apple",
+    "name": "MacBook Air 15\" (M4)",
+    "category": "laptop",
+    "releaseYear": 2025,
+    "screenSize": 15.3,
+    "resolution": {
+      "width": 2880,
+      "height": 1864
+    },
+    "cssViewport": {
+      "width": 1440,
+      "height": 932
+    },
+    "devicePixelRatio": 2,
+    "ppi": 224,
+    "platform": "macOS"
+  },
+  {
+    "id": "google-pixel-10",
+    "brand": "Google",
+    "name": "Pixel 10",
+    "category": "smartphone",
+    "releaseYear": 2025,
+    "screenSize": 6.3,
+    "resolution": {
+      "width": 1080,
+      "height": 2400
+    },
+    "cssViewport": {
+      "width": 412,
+      "height": 915
+    },
+    "devicePixelRatio": 2.625,
+    "ppi": 422,
+    "platform": "Android",
+    "osVersion": "16"
+  },
+  {
+    "id": "google-pixel-10-pro",
+    "brand": "Google",
+    "name": "Pixel 10 Pro",
+    "category": "smartphone",
+    "releaseYear": 2025,
+    "screenSize": 6.3,
+    "resolution": {
+      "width": 1080,
+      "height": 2424
+    },
+    "cssViewport": {
+      "width": 412,
+      "height": 924
+    },
+    "devicePixelRatio": 2.625,
+    "ppi": 425,
+    "platform": "Android",
+    "osVersion": "16"
+  },
+  {
+    "id": "google-pixel-10-pro-xl",
+    "brand": "Google",
+    "name": "Pixel 10 Pro XL",
+    "category": "smartphone",
+    "releaseYear": 2025,
+    "screenSize": 6.9,
+    "resolution": {
+      "width": 1344,
+      "height": 2992
+    },
+    "cssViewport": {
+      "width": 448,
+      "height": 997
+    },
+    "devicePixelRatio": 3,
+    "ppi": 486,
+    "platform": "Android",
+    "osVersion": "16"
+  },
+  {
+    "id": "google-pixel-9a",
+    "brand": "Google",
+    "name": "Pixel 9a",
+    "category": "smartphone",
+    "releaseYear": 2025,
+    "screenSize": 6.3,
+    "resolution": {
+      "width": 1080,
+      "height": 2424
+    },
+    "cssViewport": {
+      "width": 412,
+      "height": 924
+    },
+    "devicePixelRatio": 2.625,
+    "ppi": 422,
+    "platform": "Android",
+    "osVersion": "15"
+  },
+  {
+    "id": "nothing-phone-3",
+    "brand": "Nothing",
+    "name": "Phone (3)",
+    "category": "smartphone",
+    "releaseYear": 2025,
+    "screenSize": 6.5,
+    "resolution": {
+      "width": 1080,
+      "height": 2400
+    },
+    "cssViewport": {
+      "width": 412,
+      "height": 915
+    },
+    "devicePixelRatio": 2.625,
+    "ppi": 405,
+    "platform": "Android",
+    "osVersion": "15"
+  },
+  {
+    "id": "oneplus-13",
+    "brand": "OnePlus",
+    "name": "13",
+    "category": "smartphone",
+    "releaseYear": 2025,
+    "screenSize": 6.82,
+    "resolution": {
+      "width": 1440,
+      "height": 3168
+    },
+    "cssViewport": {
+      "width": 412,
+      "height": 915
+    },
+    "devicePixelRatio": 3.5,
+    "ppi": 510,
+    "platform": "Android",
+    "osVersion": "15"
+  },
+  {
+    "id": "samsung-galaxy-s25",
+    "brand": "Samsung",
+    "name": "Galaxy S25",
+    "category": "smartphone",
+    "releaseYear": 2025,
+    "screenSize": 6.2,
+    "resolution": {
+      "width": 1080,
+      "height": 2340
+    },
+    "cssViewport": {
+      "width": 360,
+      "height": 780
+    },
+    "devicePixelRatio": 3,
+    "ppi": 416,
+    "platform": "Android",
+    "osVersion": "15"
+  },
+  {
+    "id": "samsung-galaxy-s25-fe",
+    "brand": "Samsung",
+    "name": "Galaxy S25 FE",
+    "category": "smartphone",
+    "releaseYear": 2025,
+    "screenSize": 6.7,
+    "resolution": {
+      "width": 1080,
+      "height": 2340
+    },
+    "cssViewport": {
+      "width": 360,
+      "height": 780
+    },
+    "devicePixelRatio": 3,
+    "ppi": 385,
+    "platform": "Android",
+    "osVersion": "15"
+  },
+  {
+    "id": "samsung-galaxy-s25-ultra",
+    "brand": "Samsung",
+    "name": "Galaxy S25 Ultra",
+    "category": "smartphone",
+    "releaseYear": 2025,
+    "screenSize": 6.9,
+    "resolution": {
+      "width": 1440,
+      "height": 3120
+    },
+    "cssViewport": {
+      "width": 384,
+      "height": 832
+    },
+    "devicePixelRatio": 3.75,
+    "ppi": 498,
+    "platform": "Android",
+    "osVersion": "15"
+  },
+  {
+    "id": "samsung-galaxy-s25-plus",
+    "brand": "Samsung",
+    "name": "Galaxy S25+",
+    "category": "smartphone",
+    "releaseYear": 2025,
+    "screenSize": 6.7,
+    "resolution": {
+      "width": 1440,
+      "height": 3120
+    },
+    "cssViewport": {
+      "width": 384,
+      "height": 832
+    },
+    "devicePixelRatio": 3.75,
+    "ppi": 513,
+    "platform": "Android",
+    "osVersion": "15"
+  },
+  {
+    "id": "samsung-galaxy-tab-s10-fe",
+    "brand": "Samsung",
+    "name": "Galaxy Tab S10 FE",
+    "category": "tablet",
+    "releaseYear": 2025,
+    "screenSize": 10.9,
+    "resolution": {
+      "width": 2560,
+      "height": 1600
+    },
+    "cssViewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "devicePixelRatio": 2,
+    "ppi": 276,
+    "platform": "Android",
+    "osVersion": "15"
+  },
+  {
+    "id": "samsung-galaxy-z-flip7",
+    "brand": "Samsung",
+    "name": "Galaxy Z Flip7",
+    "category": "smartphone",
+    "releaseYear": 2025,
+    "screenSize": 6.7,
+    "resolution": {
+      "width": 1080,
+      "height": 2640
+    },
+    "cssViewport": {
+      "width": 360,
+      "height": 880
+    },
+    "devicePixelRatio": 3,
+    "ppi": 425,
+    "platform": "Android",
+    "osVersion": "15"
+  },
+  {
+    "id": "samsung-galaxy-z-fold7",
+    "brand": "Samsung",
+    "name": "Galaxy Z Fold7",
+    "category": "smartphone",
+    "releaseYear": 2025,
+    "screenSize": 7.6,
+    "resolution": {
+      "width": 1856,
+      "height": 2160
+    },
+    "cssViewport": {
+      "width": 373,
+      "height": 832
+    },
+    "devicePixelRatio": 3,
+    "ppi": 374,
+    "platform": "Android",
+    "osVersion": "15"
+  },
+  {
+    "id": "xiaomi-15",
+    "brand": "Xiaomi",
+    "name": "15",
+    "category": "smartphone",
+    "releaseYear": 2025,
+    "screenSize": 6.36,
+    "resolution": {
+      "width": 1200,
+      "height": 2670
+    },
+    "cssViewport": {
+      "width": 400,
+      "height": 890
+    },
+    "devicePixelRatio": 3,
+    "ppi": 460,
+    "platform": "Android",
+    "osVersion": "15"
+  },
+  {
+    "id": "xiaomi-15-pro",
+    "brand": "Xiaomi",
+    "name": "15 Pro",
+    "category": "smartphone",
+    "releaseYear": 2025,
+    "screenSize": 6.73,
+    "resolution": {
+      "width": 1440,
+      "height": 3200
+    },
+    "cssViewport": {
+      "width": 412,
+      "height": 915
+    },
+    "devicePixelRatio": 3.5,
+    "ppi": 522,
+    "platform": "Android",
+    "osVersion": "15"
+  },
+  {
+    "id": "xiaomi-15-ultra",
+    "brand": "Xiaomi",
+    "name": "15 Ultra",
+    "category": "smartphone",
+    "releaseYear": 2025,
+    "screenSize": 6.73,
+    "resolution": {
+      "width": 1440,
+      "height": 3200
+    },
+    "cssViewport": {
+      "width": 412,
+      "height": 915
+    },
+    "devicePixelRatio": 3.5,
+    "ppi": 522,
+    "platform": "Android",
+    "osVersion": "15"
+  },
+  {
+    "id": "apple-ipad-air-m2",
+    "brand": "Apple",
+    "name": "iPad Air (M2)",
+    "category": "tablet",
+    "releaseYear": 2024,
+    "screenSize": 11,
+    "resolution": {
+      "width": 1640,
+      "height": 2360
+    },
+    "cssViewport": {
+      "width": 820,
+      "height": 1180
+    },
+    "devicePixelRatio": 2,
+    "ppi": 264,
+    "platform": "iPadOS",
+    "osVersion": "17.0"
+  },
+  {
+    "id": "apple-ipad-mini-7",
+    "brand": "Apple",
+    "name": "iPad mini (7th gen)",
+    "category": "tablet",
+    "releaseYear": 2024,
+    "screenSize": 8.3,
+    "resolution": {
+      "width": 1488,
+      "height": 2266
+    },
+    "cssViewport": {
+      "width": 744,
+      "height": 1133
+    },
+    "devicePixelRatio": 2,
+    "ppi": 326,
+    "platform": "iPadOS",
+    "osVersion": "18.0"
+  },
+  {
+    "id": "apple-ipad-pro-11-m4",
+    "brand": "Apple",
+    "name": "iPad Pro 11\" (M4)",
+    "category": "tablet",
+    "releaseYear": 2024,
+    "screenSize": 11,
+    "resolution": {
+      "width": 2420,
+      "height": 1668
+    },
+    "cssViewport": {
+      "width": 1210,
+      "height": 834
+    },
+    "devicePixelRatio": 2,
+    "ppi": 264,
+    "platform": "iPadOS",
+    "osVersion": "17.4"
+  },
+  {
+    "id": "apple-ipad-pro-13-m4",
+    "brand": "Apple",
+    "name": "iPad Pro 13\" (M4)",
+    "category": "tablet",
+    "releaseYear": 2024,
+    "screenSize": 13,
+    "resolution": {
+      "width": 2752,
+      "height": 2064
+    },
+    "cssViewport": {
+      "width": 1376,
+      "height": 1032
+    },
+    "devicePixelRatio": 2,
+    "ppi": 264,
+    "platform": "iPadOS",
+    "osVersion": "17.4"
+  },
+  {
+    "id": "apple-iphone-16",
+    "brand": "Apple",
+    "name": "iPhone 16",
+    "category": "smartphone",
+    "releaseYear": 2024,
+    "screenSize": 6.1,
+    "resolution": {
+      "width": 1179,
+      "height": 2556
+    },
+    "cssViewport": {
+      "width": 393,
+      "height": 852
+    },
+    "devicePixelRatio": 3,
+    "ppi": 460,
+    "platform": "iOS",
+    "osVersion": "18.0"
+  },
+  {
+    "id": "apple-iphone-16-plus",
+    "brand": "Apple",
+    "name": "iPhone 16 Plus",
+    "category": "smartphone",
+    "releaseYear": 2024,
+    "screenSize": 6.7,
+    "resolution": {
+      "width": 1290,
+      "height": 2796
+    },
+    "cssViewport": {
+      "width": 430,
+      "height": 932
+    },
+    "devicePixelRatio": 3,
+    "ppi": 460,
+    "platform": "iOS",
+    "osVersion": "18.0"
+  },
+  {
+    "id": "apple-iphone-16-pro",
+    "brand": "Apple",
+    "name": "iPhone 16 Pro",
+    "category": "smartphone",
+    "releaseYear": 2024,
+    "screenSize": 6.3,
+    "resolution": {
+      "width": 1206,
+      "height": 2622
+    },
+    "cssViewport": {
+      "width": 402,
+      "height": 874
+    },
+    "devicePixelRatio": 3,
+    "ppi": 460,
+    "platform": "iOS",
+    "osVersion": "18.0"
+  },
+  {
+    "id": "apple-iphone-16-pro-max",
+    "brand": "Apple",
+    "name": "iPhone 16 Pro Max",
+    "category": "smartphone",
+    "releaseYear": 2024,
+    "screenSize": 6.9,
+    "resolution": {
+      "width": 1320,
+      "height": 2868
+    },
+    "cssViewport": {
+      "width": 440,
+      "height": 956
+    },
+    "devicePixelRatio": 3,
+    "ppi": 460,
+    "platform": "iOS",
+    "osVersion": "18.0"
+  },
+  {
+    "id": "macbook-air-13-m3",
+    "brand": "Apple",
+    "name": "MacBook Air 13\" (M3)",
+    "category": "laptop",
+    "releaseYear": 2024,
+    "screenSize": 13.6,
+    "resolution": {
+      "width": 2560,
+      "height": 1664
+    },
+    "cssViewport": {
+      "width": 1280,
+      "height": 832
+    },
+    "devicePixelRatio": 2,
+    "ppi": 224,
+    "platform": "macOS"
+  },
+  {
+    "id": "macbook-pro-14-m4",
+    "brand": "Apple",
+    "name": "MacBook Pro 14\" (M4)",
+    "category": "laptop",
+    "releaseYear": 2024,
+    "screenSize": 14.2,
+    "resolution": {
+      "width": 3024,
+      "height": 1964
+    },
+    "cssViewport": {
+      "width": 1512,
+      "height": 982
+    },
+    "devicePixelRatio": 2,
+    "ppi": 254,
+    "platform": "macOS"
+  },
+  {
+    "id": "macbook-pro-16-m4",
+    "brand": "Apple",
+    "name": "MacBook Pro 16\" (M4)",
+    "category": "laptop",
+    "releaseYear": 2024,
+    "screenSize": 16.2,
+    "resolution": {
+      "width": 3456,
+      "height": 2234
+    },
+    "cssViewport": {
+      "width": 1728,
+      "height": 1117
+    },
+    "devicePixelRatio": 2,
+    "ppi": 254,
+    "platform": "macOS"
+  },
+  {
+    "id": "apple-watch-series-10-large",
+    "brand": "Apple",
+    "name": "Watch Series 10 (Large)",
+    "category": "watch",
+    "releaseYear": 2024,
+    "screenSize": 1.96,
+    "resolution": {
+      "width": 416,
+      "height": 496
+    },
+    "cssViewport": {
+      "width": 208,
+      "height": 248
+    },
+    "devicePixelRatio": 2,
+    "ppi": 330,
+    "platform": "watchOS",
+    "osVersion": "11.0"
+  },
+  {
+    "id": "apple-watch-series-10-small",
+    "brand": "Apple",
+    "name": "Watch Series 10 (Small)",
+    "category": "watch",
+    "releaseYear": 2024,
+    "screenSize": 1.765,
+    "resolution": {
+      "width": 374,
+      "height": 446
+    },
+    "cssViewport": {
+      "width": 187,
+      "height": 223
+    },
+    "devicePixelRatio": 2,
+    "ppi": 330,
+    "platform": "watchOS",
+    "osVersion": "11.0"
+  },
+  {
+    "id": "asus-rog-phone-8",
+    "brand": "ASUS",
+    "name": "ROG Phone 8",
+    "category": "smartphone",
+    "releaseYear": 2024,
+    "screenSize": 6.78,
+    "resolution": {
+      "width": 1080,
+      "height": 2400
+    },
+    "cssViewport": {
+      "width": 412,
+      "height": 915
+    },
+    "devicePixelRatio": 2.625,
+    "ppi": 388,
+    "platform": "Android",
+    "osVersion": "14"
+  },
+  {
+    "id": "google-pixel-9",
+    "brand": "Google",
+    "name": "Pixel 9",
+    "category": "smartphone",
+    "releaseYear": 2024,
+    "screenSize": 6.3,
+    "resolution": {
+      "width": 1080,
+      "height": 2424
+    },
+    "cssViewport": {
+      "width": 412,
+      "height": 924
+    },
+    "devicePixelRatio": 2.625,
+    "ppi": 422,
+    "platform": "Android",
+    "osVersion": "14"
+  },
+  {
+    "id": "google-pixel-9-pro",
+    "brand": "Google",
+    "name": "Pixel 9 Pro",
+    "category": "smartphone",
+    "releaseYear": 2024,
+    "screenSize": 6.3,
+    "resolution": {
+      "width": 1280,
+      "height": 2856
+    },
+    "cssViewport": {
+      "width": 412,
+      "height": 919
+    },
+    "devicePixelRatio": 3.1,
+    "ppi": 495,
+    "platform": "Android",
+    "osVersion": "14"
+  },
+  {
+    "id": "google-pixel-9-pro-fold",
+    "brand": "Google",
+    "name": "Pixel 9 Pro Fold",
+    "category": "smartphone",
+    "releaseYear": 2024,
+    "screenSize": 8,
+    "resolution": {
+      "width": 2076,
+      "height": 2152
+    },
+    "cssViewport": {
+      "width": 514,
+      "height": 882
+    },
+    "devicePixelRatio": 2,
+    "ppi": 373,
+    "platform": "Android",
+    "osVersion": "14"
+  },
+  {
+    "id": "nothing-phone-2a",
+    "brand": "Nothing",
+    "name": "Phone (2a)",
+    "category": "smartphone",
+    "releaseYear": 2024,
+    "screenSize": 6.7,
+    "resolution": {
+      "width": 1084,
+      "height": 2412
+    },
+    "cssViewport": {
+      "width": 412,
+      "height": 917
+    },
+    "devicePixelRatio": 2.625,
+    "ppi": 394,
+    "platform": "Android",
+    "osVersion": "14"
+  },
+  {
+    "id": "oneplus-12",
+    "brand": "OnePlus",
+    "name": "12",
+    "category": "smartphone",
+    "releaseYear": 2024,
+    "screenSize": 6.82,
+    "resolution": {
+      "width": 1440,
+      "height": 3168
+    },
+    "cssViewport": {
+      "width": 412,
+      "height": 906
+    },
+    "devicePixelRatio": 3.5,
+    "ppi": 510,
+    "platform": "Android",
+    "osVersion": "14"
+  },
+  {
+    "id": "oppo-find-x8",
+    "brand": "OPPO",
+    "name": "Find X8",
+    "category": "smartphone",
+    "releaseYear": 2024,
+    "screenSize": 6.59,
+    "resolution": {
+      "width": 1256,
+      "height": 2760
+    },
+    "cssViewport": {
+      "width": 412,
+      "height": 906
+    },
+    "devicePixelRatio": 3,
+    "ppi": 460,
+    "platform": "Android",
+    "osVersion": "15"
+  },
+  {
+    "id": "oppo-find-x8-pro",
+    "brand": "OPPO",
+    "name": "Find X8 Pro",
+    "category": "smartphone",
+    "releaseYear": 2024,
+    "screenSize": 6.78,
+    "resolution": {
+      "width": 1264,
+      "height": 2780
+    },
+    "cssViewport": {
+      "width": 412,
+      "height": 906
+    },
+    "devicePixelRatio": 3,
+    "ppi": 450,
+    "platform": "Android",
+    "osVersion": "15"
+  },
+  {
+    "id": "samsung-galaxy-s24",
+    "brand": "Samsung",
+    "name": "Galaxy S24",
+    "category": "smartphone",
+    "releaseYear": 2024,
+    "screenSize": 6.2,
+    "resolution": {
+      "width": 1080,
+      "height": 2340
+    },
+    "cssViewport": {
+      "width": 360,
+      "height": 780
+    },
+    "devicePixelRatio": 3,
+    "ppi": 416,
+    "platform": "Android",
+    "osVersion": "14"
+  },
+  {
+    "id": "samsung-galaxy-s24-ultra",
+    "brand": "Samsung",
+    "name": "Galaxy S24 Ultra",
+    "category": "smartphone",
+    "releaseYear": 2024,
+    "screenSize": 6.8,
+    "resolution": {
+      "width": 1440,
+      "height": 3120
+    },
+    "cssViewport": {
+      "width": 384,
+      "height": 832
+    },
+    "devicePixelRatio": 3.75,
+    "ppi": 505,
+    "platform": "Android",
+    "osVersion": "14"
+  },
+  {
+    "id": "samsung-galaxy-tab-s10-ultra",
+    "brand": "Samsung",
+    "name": "Galaxy Tab S10 Ultra",
+    "category": "tablet",
+    "releaseYear": 2024,
+    "screenSize": 14.6,
+    "resolution": {
+      "width": 1848,
+      "height": 2960
+    },
+    "cssViewport": {
+      "width": 924,
+      "height": 1480
+    },
+    "devicePixelRatio": 2,
+    "ppi": 239,
+    "platform": "Android",
+    "osVersion": "14"
+  },
+  {
+    "id": "samsung-galaxy-tab-s10-plus",
+    "brand": "Samsung",
+    "name": "Galaxy Tab S10+",
+    "category": "tablet",
+    "releaseYear": 2024,
+    "screenSize": 12.4,
+    "resolution": {
+      "width": 2800,
+      "height": 1752
+    },
+    "cssViewport": {
+      "width": 1400,
+      "height": 876
+    },
+    "devicePixelRatio": 2,
+    "ppi": 266,
+    "platform": "Android",
+    "osVersion": "14"
+  },
+  {
+    "id": "samsung-galaxy-z-flip6",
+    "brand": "Samsung",
+    "name": "Galaxy Z Flip6",
+    "category": "smartphone",
+    "releaseYear": 2024,
+    "screenSize": 6.7,
+    "resolution": {
+      "width": 1080,
+      "height": 2640
+    },
+    "cssViewport": {
+      "width": 412,
+      "height": 1006
+    },
+    "devicePixelRatio": 2.625,
+    "ppi": 426,
+    "platform": "Android",
+    "osVersion": "14"
+  },
+  {
+    "id": "samsung-galaxy-z-fold6",
+    "brand": "Samsung",
+    "name": "Galaxy Z Fold6",
+    "category": "smartphone",
+    "releaseYear": 2024,
+    "screenSize": 7.6,
+    "resolution": {
+      "width": 1856,
+      "height": 2160
+    },
+    "cssViewport": {
+      "width": 412,
+      "height": 883
+    },
+    "devicePixelRatio": 3,
+    "ppi": 374,
+    "platform": "Android",
+    "osVersion": "14"
+  },
+  {
+    "id": "sony-xperia-1-vi",
+    "brand": "Sony",
+    "name": "Xperia 1 VI",
+    "category": "smartphone",
+    "releaseYear": 2024,
+    "screenSize": 6.5,
+    "resolution": {
+      "width": 1080,
+      "height": 2340
+    },
+    "cssViewport": {
+      "width": 412,
+      "height": 892
+    },
+    "devicePixelRatio": 2.625,
+    "ppi": 394,
+    "platform": "Android",
+    "osVersion": "14"
+  },
+  {
+    "id": "xiaomi-14",
+    "brand": "Xiaomi",
+    "name": "14",
+    "category": "smartphone",
+    "releaseYear": 2024,
+    "screenSize": 6.36,
+    "resolution": {
+      "width": 1200,
+      "height": 2670
+    },
+    "cssViewport": {
+      "width": 400,
+      "height": 890
+    },
+    "devicePixelRatio": 3,
+    "ppi": 460,
+    "platform": "Android",
+    "osVersion": "14"
+  },
+  {
+    "id": "xiaomi-14-ultra",
+    "brand": "Xiaomi",
+    "name": "14 Ultra",
+    "category": "smartphone",
+    "releaseYear": 2024,
+    "screenSize": 6.73,
+    "resolution": {
+      "width": 1440,
+      "height": 3200
+    },
+    "cssViewport": {
+      "width": 412,
+      "height": 915
+    },
+    "devicePixelRatio": 3.5,
+    "ppi": 522,
+    "platform": "Android",
+    "osVersion": "14"
+  },
+  {
+    "id": "apple-iphone-15",
+    "brand": "Apple",
+    "name": "iPhone 15",
+    "category": "smartphone",
+    "releaseYear": 2023,
+    "screenSize": 6.1,
+    "resolution": {
+      "width": 1179,
+      "height": 2556
+    },
+    "cssViewport": {
+      "width": 393,
+      "height": 852
+    },
+    "devicePixelRatio": 3,
+    "ppi": 460,
+    "platform": "iOS",
+    "osVersion": "17.0"
+  },
+  {
+    "id": "apple-iphone-15-plus",
+    "brand": "Apple",
+    "name": "iPhone 15 Plus",
+    "category": "smartphone",
+    "releaseYear": 2023,
+    "screenSize": 6.7,
+    "resolution": {
+      "width": 1290,
+      "height": 2796
+    },
+    "cssViewport": {
+      "width": 430,
+      "height": 932
+    },
+    "devicePixelRatio": 3,
+    "ppi": 460,
+    "platform": "iOS",
+    "osVersion": "17.0"
+  },
+  {
+    "id": "apple-iphone-15-pro",
+    "brand": "Apple",
+    "name": "iPhone 15 Pro",
+    "category": "smartphone",
+    "releaseYear": 2023,
+    "screenSize": 6.1,
+    "resolution": {
+      "width": 1179,
+      "height": 2556
+    },
+    "cssViewport": {
+      "width": 393,
+      "height": 852
+    },
+    "devicePixelRatio": 3,
+    "ppi": 460,
+    "platform": "iOS",
+    "osVersion": "17.0"
+  },
+  {
+    "id": "apple-iphone-15-pro-max",
+    "brand": "Apple",
+    "name": "iPhone 15 Pro Max",
+    "category": "smartphone",
+    "releaseYear": 2023,
+    "screenSize": 6.7,
+    "resolution": {
+      "width": 1290,
+      "height": 2796
+    },
+    "cssViewport": {
+      "width": 430,
+      "height": 932
+    },
+    "devicePixelRatio": 3,
+    "ppi": 460,
+    "platform": "iOS",
+    "osVersion": "17.0"
+  },
+  {
+    "id": "macbook-pro-14-m3",
+    "brand": "Apple",
+    "name": "MacBook Pro 14\" (M3)",
+    "category": "laptop",
+    "releaseYear": 2023,
+    "screenSize": 14.2,
+    "resolution": {
+      "width": 3024,
+      "height": 1964
+    },
+    "cssViewport": {
+      "width": 1512,
+      "height": 982
+    },
+    "devicePixelRatio": 2,
+    "ppi": 254,
+    "platform": "macOS"
+  },
+  {
+    "id": "macbook-pro-16-m3",
+    "brand": "Apple",
+    "name": "MacBook Pro 16\" (M3)",
+    "category": "laptop",
+    "releaseYear": 2023,
+    "screenSize": 16.2,
+    "resolution": {
+      "width": 3456,
+      "height": 2234
+    },
+    "cssViewport": {
+      "width": 1728,
+      "height": 1117
+    },
+    "devicePixelRatio": 2,
+    "ppi": 254,
+    "platform": "macOS"
+  },
+  {
+    "id": "google-pixel-8",
+    "brand": "Google",
+    "name": "Pixel 8",
+    "category": "smartphone",
+    "releaseYear": 2023,
+    "screenSize": 6.2,
+    "resolution": {
+      "width": 1080,
+      "height": 2400
+    },
+    "cssViewport": {
+      "width": 412,
+      "height": 915
+    },
+    "devicePixelRatio": 2.625,
+    "ppi": 428,
+    "platform": "Android",
+    "osVersion": "14"
+  },
+  {
+    "id": "google-pixel-8-pro",
+    "brand": "Google",
+    "name": "Pixel 8 Pro",
+    "category": "smartphone",
+    "releaseYear": 2023,
+    "screenSize": 6.7,
+    "resolution": {
+      "width": 1344,
+      "height": 2992
+    },
+    "cssViewport": {
+      "width": 448,
+      "height": 998
+    },
+    "devicePixelRatio": 3,
+    "ppi": 489,
+    "platform": "Android",
+    "osVersion": "14"
+  },
+  {
+    "id": "huawei-mate-60-pro",
+    "brand": "Huawei",
+    "name": "Mate 60 Pro",
+    "category": "smartphone",
+    "releaseYear": 2023,
+    "screenSize": 6.82,
+    "resolution": {
+      "width": 1260,
+      "height": 2720
+    },
+    "cssViewport": {
+      "width": 420,
+      "height": 907
+    },
+    "devicePixelRatio": 3,
+    "ppi": 440,
+    "platform": "HarmonyOS",
+    "osVersion": "4.0"
+  },
+  {
+    "id": "nothing-phone-2",
+    "brand": "Nothing",
+    "name": "Phone (2)",
+    "category": "smartphone",
+    "releaseYear": 2023,
+    "screenSize": 6.7,
+    "resolution": {
+      "width": 1080,
+      "height": 2412
+    },
+    "cssViewport": {
+      "width": 412,
+      "height": 919
+    },
+    "devicePixelRatio": 2.625,
+    "ppi": 394,
+    "platform": "Android",
+    "osVersion": "13"
+  },
+  {
+    "id": "samsung-galaxy-s23",
+    "brand": "Samsung",
+    "name": "Galaxy S23",
+    "category": "smartphone",
+    "releaseYear": 2023,
+    "screenSize": 6.1,
+    "resolution": {
+      "width": 1080,
+      "height": 2340
+    },
+    "cssViewport": {
+      "width": 360,
+      "height": 780
+    },
+    "devicePixelRatio": 3,
+    "ppi": 425,
+    "platform": "Android",
+    "osVersion": "13"
+  },
+  {
+    "id": "samsung-galaxy-s23-ultra",
+    "brand": "Samsung",
+    "name": "Galaxy S23 Ultra",
+    "category": "smartphone",
+    "releaseYear": 2023,
+    "screenSize": 6.8,
+    "resolution": {
+      "width": 1440,
+      "height": 3088
+    },
+    "cssViewport": {
+      "width": 384,
+      "height": 824
+    },
+    "devicePixelRatio": 3.75,
+    "ppi": 500,
+    "platform": "Android",
+    "osVersion": "13"
+  },
+  {
+    "id": "samsung-galaxy-tab-s9",
+    "brand": "Samsung",
+    "name": "Galaxy Tab S9",
+    "category": "tablet",
+    "releaseYear": 2023,
+    "screenSize": 11,
+    "resolution": {
+      "width": 1600,
+      "height": 2560
+    },
+    "cssViewport": {
+      "width": 800,
+      "height": 1280
+    },
+    "devicePixelRatio": 2,
+    "ppi": 274,
+    "platform": "Android",
+    "osVersion": "13"
+  },
+  {
+    "id": "samsung-galaxy-tab-s9-ultra",
+    "brand": "Samsung",
+    "name": "Galaxy Tab S9 Ultra",
+    "category": "tablet",
+    "releaseYear": 2023,
+    "screenSize": 14.6,
+    "resolution": {
+      "width": 1848,
+      "height": 2960
+    },
+    "cssViewport": {
+      "width": 924,
+      "height": 1480
+    },
+    "devicePixelRatio": 2,
+    "ppi": 240,
+    "platform": "Android",
+    "osVersion": "13"
+  },
+  {
+    "id": "samsung-galaxy-z-flip5",
+    "brand": "Samsung",
+    "name": "Galaxy Z Flip5",
+    "category": "smartphone",
+    "releaseYear": 2023,
+    "screenSize": 6.7,
+    "resolution": {
+      "width": 1080,
+      "height": 2640
+    },
+    "cssViewport": {
+      "width": 360,
+      "height": 880
+    },
+    "devicePixelRatio": 3,
+    "ppi": 425,
+    "platform": "Android",
+    "osVersion": "13"
+  },
+  {
+    "id": "samsung-galaxy-z-fold5",
+    "brand": "Samsung",
+    "name": "Galaxy Z Fold5",
+    "category": "smartphone",
+    "releaseYear": 2023,
+    "screenSize": 7.6,
+    "resolution": {
+      "width": 1812,
+      "height": 2176
+    },
+    "cssViewport": {
+      "width": 362,
+      "height": 435
+    },
+    "devicePixelRatio": 5,
+    "ppi": 374,
+    "platform": "Android",
+    "osVersion": "13"
+  },
+  {
+    "id": "xiaomi-pad-6",
+    "brand": "Xiaomi",
+    "name": "Pad 6",
+    "category": "tablet",
+    "releaseYear": 2023,
+    "screenSize": 11,
+    "resolution": {
+      "width": 1800,
+      "height": 2880
+    },
+    "cssViewport": {
+      "width": 900,
+      "height": 1440
+    },
+    "devicePixelRatio": 2,
+    "ppi": 309,
+    "platform": "Android",
+    "osVersion": "13"
+  },
+  {
+    "id": "apple-ipad-10th",
+    "brand": "Apple",
+    "name": "iPad (10th gen)",
+    "category": "tablet",
+    "releaseYear": 2022,
+    "screenSize": 10.9,
+    "resolution": {
+      "width": 1640,
+      "height": 2360
+    },
+    "cssViewport": {
+      "width": 820,
+      "height": 1180
+    },
+    "devicePixelRatio": 2,
+    "ppi": 264,
+    "platform": "iPadOS",
+    "osVersion": "16.0"
+  },
+  {
+    "id": "apple-iphone-14",
+    "brand": "Apple",
+    "name": "iPhone 14",
+    "category": "smartphone",
+    "releaseYear": 2022,
+    "screenSize": 6.1,
+    "resolution": {
+      "width": 1170,
+      "height": 2532
+    },
+    "cssViewport": {
+      "width": 390,
+      "height": 844
+    },
+    "devicePixelRatio": 3,
+    "ppi": 460,
+    "platform": "iOS",
+    "osVersion": "16.0"
+  },
+  {
+    "id": "apple-iphone-14-plus",
+    "brand": "Apple",
+    "name": "iPhone 14 Plus",
+    "category": "smartphone",
+    "releaseYear": 2022,
+    "screenSize": 6.7,
+    "resolution": {
+      "width": 1284,
+      "height": 2778
+    },
+    "cssViewport": {
+      "width": 428,
+      "height": 926
+    },
+    "devicePixelRatio": 3,
+    "ppi": 458,
+    "platform": "iOS",
+    "osVersion": "16.0"
+  },
+  {
+    "id": "apple-iphone-14-pro",
+    "brand": "Apple",
+    "name": "iPhone 14 Pro",
+    "category": "smartphone",
+    "releaseYear": 2022,
+    "screenSize": 6.1,
+    "resolution": {
+      "width": 1179,
+      "height": 2556
+    },
+    "cssViewport": {
+      "width": 393,
+      "height": 852
+    },
+    "devicePixelRatio": 3,
+    "ppi": 460,
+    "platform": "iOS",
+    "osVersion": "16.0"
+  },
+  {
+    "id": "apple-iphone-14-pro-max",
+    "brand": "Apple",
+    "name": "iPhone 14 Pro Max",
+    "category": "smartphone",
+    "releaseYear": 2022,
+    "screenSize": 6.7,
+    "resolution": {
+      "width": 1290,
+      "height": 2796
+    },
+    "cssViewport": {
+      "width": 430,
+      "height": 932
+    },
+    "devicePixelRatio": 3,
+    "ppi": 460,
+    "platform": "iOS",
+    "osVersion": "16.0"
+  },
+  {
+    "id": "apple-iphone-se-3",
+    "brand": "Apple",
+    "name": "iPhone SE (3rd gen)",
+    "category": "smartphone",
+    "releaseYear": 2022,
+    "screenSize": 4.7,
+    "resolution": {
+      "width": 750,
+      "height": 1334
+    },
+    "cssViewport": {
+      "width": 375,
+      "height": 667
+    },
+    "devicePixelRatio": 2,
+    "ppi": 326,
+    "platform": "iOS",
+    "osVersion": "15.0"
+  },
+  {
+    "id": "google-pixel-7",
+    "brand": "Google",
+    "name": "Pixel 7",
+    "category": "smartphone",
+    "releaseYear": 2022,
+    "screenSize": 6.3,
+    "resolution": {
+      "width": 1080,
+      "height": 2400
+    },
+    "cssViewport": {
+      "width": 412,
+      "height": 915
+    },
+    "devicePixelRatio": 2.625,
+    "ppi": 416,
+    "platform": "Android",
+    "osVersion": "13"
+  },
+  {
+    "id": "google-pixel-7-pro",
+    "brand": "Google",
+    "name": "Pixel 7 Pro",
+    "category": "smartphone",
+    "releaseYear": 2022,
+    "screenSize": 6.7,
+    "resolution": {
+      "width": 1440,
+      "height": 3120
+    },
+    "cssViewport": {
+      "width": 412,
+      "height": 892
+    },
+    "devicePixelRatio": 3.5,
+    "ppi": 512,
+    "platform": "Android",
+    "osVersion": "13"
+  },
+  {
+    "id": "samsung-galaxy-s22",
+    "brand": "Samsung",
+    "name": "Galaxy S22",
+    "category": "smartphone",
+    "releaseYear": 2022,
+    "screenSize": 6.1,
+    "resolution": {
+      "width": 1080,
+      "height": 2340
+    },
+    "cssViewport": {
+      "width": 360,
+      "height": 780
+    },
+    "devicePixelRatio": 3,
+    "ppi": 425,
+    "platform": "Android",
+    "osVersion": "12"
+  },
+  {
+    "id": "samsung-galaxy-s22-ultra",
+    "brand": "Samsung",
+    "name": "Galaxy S22 Ultra",
+    "category": "smartphone",
+    "releaseYear": 2022,
+    "screenSize": 6.8,
+    "resolution": {
+      "width": 1440,
+      "height": 3088
+    },
+    "cssViewport": {
+      "width": 384,
+      "height": 824
+    },
+    "devicePixelRatio": 3.75,
+    "ppi": 500,
+    "platform": "Android",
+    "osVersion": "12"
+  },
+  {
+    "id": "apple-ipad-mini-6",
+    "brand": "Apple",
+    "name": "iPad mini (6th gen)",
+    "category": "tablet",
+    "releaseYear": 2021,
+    "screenSize": 8.3,
+    "resolution": {
+      "width": 1488,
+      "height": 2266
+    },
+    "cssViewport": {
+      "width": 744,
+      "height": 1133
+    },
+    "devicePixelRatio": 2,
+    "ppi": 326,
+    "platform": "iPadOS",
+    "osVersion": "15.0"
+  },
+  {
+    "id": "apple-iphone-13",
+    "brand": "Apple",
+    "name": "iPhone 13",
+    "category": "smartphone",
+    "releaseYear": 2021,
+    "screenSize": 6.1,
+    "resolution": {
+      "width": 1170,
+      "height": 2532
+    },
+    "cssViewport": {
+      "width": 390,
+      "height": 844
+    },
+    "devicePixelRatio": 3,
+    "ppi": 460,
+    "platform": "iOS",
+    "osVersion": "15.0"
+  },
+  {
+    "id": "apple-iphone-13-mini",
+    "brand": "Apple",
+    "name": "iPhone 13 mini",
+    "category": "smartphone",
+    "releaseYear": 2021,
+    "screenSize": 5.4,
+    "resolution": {
+      "width": 1080,
+      "height": 2340
+    },
+    "cssViewport": {
+      "width": 375,
+      "height": 812
+    },
+    "devicePixelRatio": 3,
+    "ppi": 476,
+    "platform": "iOS",
+    "osVersion": "15.0"
+  },
+  {
+    "id": "apple-iphone-13-pro",
+    "brand": "Apple",
+    "name": "iPhone 13 Pro",
+    "category": "smartphone",
+    "releaseYear": 2021,
+    "screenSize": 6.1,
+    "resolution": {
+      "width": 1170,
+      "height": 2532
+    },
+    "cssViewport": {
+      "width": 390,
+      "height": 844
+    },
+    "devicePixelRatio": 3,
+    "ppi": 460,
+    "platform": "iOS",
+    "osVersion": "15.0"
+  },
+  {
+    "id": "apple-iphone-13-pro-max",
+    "brand": "Apple",
+    "name": "iPhone 13 Pro Max",
+    "category": "smartphone",
+    "releaseYear": 2021,
+    "screenSize": 6.7,
+    "resolution": {
+      "width": 1284,
+      "height": 2778
+    },
+    "cssViewport": {
+      "width": 428,
+      "height": 926
+    },
+    "devicePixelRatio": 3,
+    "ppi": 458,
+    "platform": "iOS",
+    "osVersion": "15.0"
+  },
+  {
+    "id": "google-pixel-6",
+    "brand": "Google",
+    "name": "Pixel 6",
+    "category": "smartphone",
+    "releaseYear": 2021,
+    "screenSize": 6.4,
+    "resolution": {
+      "width": 1080,
+      "height": 2400
+    },
+    "cssViewport": {
+      "width": 412,
+      "height": 915
+    },
+    "devicePixelRatio": 2.625,
+    "ppi": 411,
+    "platform": "Android",
+    "osVersion": "12"
+  },
+  {
+    "id": "samsung-galaxy-s21",
+    "brand": "Samsung",
+    "name": "Galaxy S21",
+    "category": "smartphone",
+    "releaseYear": 2021,
+    "screenSize": 6.2,
+    "resolution": {
+      "width": 1080,
+      "height": 2400
+    },
+    "cssViewport": {
+      "width": 360,
+      "height": 800
+    },
+    "devicePixelRatio": 3,
+    "ppi": 421,
+    "platform": "Android",
+    "osVersion": "11"
+  },
+  {
+    "id": "samsung-galaxy-s21-ultra",
+    "brand": "Samsung",
+    "name": "Galaxy S21 Ultra",
+    "category": "smartphone",
+    "releaseYear": 2021,
+    "screenSize": 6.8,
+    "resolution": {
+      "width": 1440,
+      "height": 3200
+    },
+    "cssViewport": {
+      "width": 384,
+      "height": 854
+    },
+    "devicePixelRatio": 3.75,
+    "ppi": 515,
+    "platform": "Android",
+    "osVersion": "11"
+  },
+  {
+    "id": "apple-iphone-12",
+    "brand": "Apple",
+    "name": "iPhone 12",
+    "category": "smartphone",
+    "releaseYear": 2020,
+    "screenSize": 6.1,
+    "resolution": {
+      "width": 1170,
+      "height": 2532
+    },
+    "cssViewport": {
+      "width": 390,
+      "height": 844
+    },
+    "devicePixelRatio": 3,
+    "ppi": 460,
+    "platform": "iOS",
+    "osVersion": "14.0"
+  },
+  {
+    "id": "apple-iphone-12-mini",
+    "brand": "Apple",
+    "name": "iPhone 12 mini",
+    "category": "smartphone",
+    "releaseYear": 2020,
+    "screenSize": 5.4,
+    "resolution": {
+      "width": 1080,
+      "height": 2340
+    },
+    "cssViewport": {
+      "width": 375,
+      "height": 812
+    },
+    "devicePixelRatio": 3,
+    "ppi": 476,
+    "platform": "iOS",
+    "osVersion": "14.0"
+  },
+  {
+    "id": "apple-iphone-12-pro",
+    "brand": "Apple",
+    "name": "iPhone 12 Pro",
+    "category": "smartphone",
+    "releaseYear": 2020,
+    "screenSize": 6.1,
+    "resolution": {
+      "width": 1170,
+      "height": 2532
+    },
+    "cssViewport": {
+      "width": 390,
+      "height": 844
+    },
+    "devicePixelRatio": 3,
+    "ppi": 460,
+    "platform": "iOS",
+    "osVersion": "14.0"
+  },
+  {
+    "id": "apple-iphone-12-pro-max",
+    "brand": "Apple",
+    "name": "iPhone 12 Pro Max",
+    "category": "smartphone",
+    "releaseYear": 2020,
+    "screenSize": 6.7,
+    "resolution": {
+      "width": 1284,
+      "height": 2778
+    },
+    "cssViewport": {
+      "width": 428,
+      "height": 926
+    },
+    "devicePixelRatio": 3,
+    "ppi": 458,
+    "platform": "iOS",
+    "osVersion": "14.0"
+  },
+  {
+    "id": "apple-iphone-se-2",
+    "brand": "Apple",
+    "name": "iPhone SE (2nd gen)",
+    "category": "smartphone",
+    "releaseYear": 2020,
+    "screenSize": 4.7,
+    "resolution": {
+      "width": 750,
+      "height": 1334
+    },
+    "cssViewport": {
+      "width": 375,
+      "height": 667
+    },
+    "devicePixelRatio": 2,
+    "ppi": 326,
+    "platform": "iOS",
+    "osVersion": "13.0"
+  },
+  {
+    "id": "apple-iphone-11",
+    "brand": "Apple",
+    "name": "iPhone 11",
+    "category": "smartphone",
+    "releaseYear": 2019,
+    "screenSize": 6.1,
+    "resolution": {
+      "width": 828,
+      "height": 1792
+    },
+    "cssViewport": {
+      "width": 414,
+      "height": 896
+    },
+    "devicePixelRatio": 2,
+    "ppi": 326,
+    "platform": "iOS",
+    "osVersion": "13.0"
+  },
+  {
+    "id": "apple-iphone-11-pro",
+    "brand": "Apple",
+    "name": "iPhone 11 Pro",
+    "category": "smartphone",
+    "releaseYear": 2019,
+    "screenSize": 5.8,
+    "resolution": {
+      "width": 1125,
+      "height": 2436
+    },
+    "cssViewport": {
+      "width": 375,
+      "height": 812
+    },
+    "devicePixelRatio": 3,
+    "ppi": 458,
+    "platform": "iOS",
+    "osVersion": "13.0"
+  },
+  {
+    "id": "apple-iphone-11-pro-max",
+    "brand": "Apple",
+    "name": "iPhone 11 Pro Max",
+    "category": "smartphone",
+    "releaseYear": 2019,
+    "screenSize": 6.5,
+    "resolution": {
+      "width": 1242,
+      "height": 2688
+    },
+    "cssViewport": {
+      "width": 414,
+      "height": 896
+    },
+    "devicePixelRatio": 3,
+    "ppi": 458,
+    "platform": "iOS",
+    "osVersion": "13.0"
+  },
+  {
+    "id": "apple-iphone-xr",
+    "brand": "Apple",
+    "name": "iPhone XR",
+    "category": "smartphone",
+    "releaseYear": 2018,
+    "screenSize": 6.1,
+    "resolution": {
+      "width": 828,
+      "height": 1792
+    },
+    "cssViewport": {
+      "width": 414,
+      "height": 896
+    },
+    "devicePixelRatio": 2,
+    "ppi": 326,
+    "platform": "iOS",
+    "osVersion": "12.0"
+  },
+  {
+    "id": "apple-iphone-xs",
+    "brand": "Apple",
+    "name": "iPhone XS",
+    "category": "smartphone",
+    "releaseYear": 2018,
+    "screenSize": 5.8,
+    "resolution": {
+      "width": 1125,
+      "height": 2436
+    },
+    "cssViewport": {
+      "width": 375,
+      "height": 812
+    },
+    "devicePixelRatio": 3,
+    "ppi": 458,
+    "platform": "iOS",
+    "osVersion": "12.0"
+  },
+  {
+    "id": "apple-iphone-xs-max",
+    "brand": "Apple",
+    "name": "iPhone XS Max",
+    "category": "smartphone",
+    "releaseYear": 2018,
+    "screenSize": 6.5,
+    "resolution": {
+      "width": 1242,
+      "height": 2688
+    },
+    "cssViewport": {
+      "width": 414,
+      "height": 896
+    },
+    "devicePixelRatio": 3,
+    "ppi": 458,
+    "platform": "iOS",
+    "osVersion": "12.0"
+  },
+  {
+    "id": "apple-iphone-8",
+    "brand": "Apple",
+    "name": "iPhone 8",
+    "category": "smartphone",
+    "releaseYear": 2017,
+    "screenSize": 4.7,
+    "resolution": {
+      "width": 750,
+      "height": 1334
+    },
+    "cssViewport": {
+      "width": 375,
+      "height": 667
+    },
+    "devicePixelRatio": 2,
+    "ppi": 326,
+    "platform": "iOS",
+    "osVersion": "11.0"
+  },
+  {
+    "id": "apple-iphone-8-plus",
+    "brand": "Apple",
+    "name": "iPhone 8 Plus",
+    "category": "smartphone",
+    "releaseYear": 2017,
+    "screenSize": 5.5,
+    "resolution": {
+      "width": 1080,
+      "height": 1920
+    },
+    "cssViewport": {
+      "width": 414,
+      "height": 736
+    },
+    "devicePixelRatio": 3,
+    "ppi": 401,
+    "platform": "iOS",
+    "osVersion": "11.0"
+  },
+  {
+    "id": "apple-iphone-x",
+    "brand": "Apple",
+    "name": "iPhone X",
+    "category": "smartphone",
+    "releaseYear": 2017,
+    "screenSize": 5.8,
+    "resolution": {
+      "width": 1125,
+      "height": 2436
+    },
+    "cssViewport": {
+      "width": 375,
+      "height": 812
+    },
+    "devicePixelRatio": 3,
+    "ppi": 458,
+    "platform": "iOS",
+    "osVersion": "11.0"
+  },
+  {
+    "id": "apple-iphone-7",
+    "brand": "Apple",
+    "name": "iPhone 7",
+    "category": "smartphone",
+    "releaseYear": 2016,
+    "screenSize": 4.7,
+    "resolution": {
+      "width": 750,
+      "height": 1334
+    },
+    "cssViewport": {
+      "width": 375,
+      "height": 667
+    },
+    "devicePixelRatio": 2,
+    "ppi": 326,
+    "platform": "iOS",
+    "osVersion": "10.0"
+  },
+  {
+    "id": "apple-iphone-7-plus",
+    "brand": "Apple",
+    "name": "iPhone 7 Plus",
+    "category": "smartphone",
+    "releaseYear": 2016,
+    "screenSize": 5.5,
+    "resolution": {
+      "width": 1080,
+      "height": 1920
+    },
+    "cssViewport": {
+      "width": 414,
+      "height": 736
+    },
+    "devicePixelRatio": 3,
+    "ppi": 401,
+    "platform": "iOS",
+    "osVersion": "10.0"
+  },
+  {
+    "id": "apple-iphone-6s",
+    "brand": "Apple",
+    "name": "iPhone 6s",
+    "category": "smartphone",
+    "releaseYear": 2015,
+    "screenSize": 4.7,
+    "resolution": {
+      "width": 750,
+      "height": 1334
+    },
+    "cssViewport": {
+      "width": 375,
+      "height": 667
+    },
+    "devicePixelRatio": 2,
+    "ppi": 326,
+    "platform": "iOS",
+    "osVersion": "9.0"
+  },
+  {
+    "id": "apple-iphone-6s-plus",
+    "brand": "Apple",
+    "name": "iPhone 6s Plus",
+    "category": "smartphone",
+    "releaseYear": 2015,
+    "screenSize": 5.5,
+    "resolution": {
+      "width": 1080,
+      "height": 1920
+    },
+    "cssViewport": {
+      "width": 414,
+      "height": 736
+    },
+    "devicePixelRatio": 3,
+    "ppi": 401,
+    "platform": "iOS",
+    "osVersion": "9.0"
+  }
+]

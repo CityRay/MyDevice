@@ -1,0 +1,52 @@
+{
+  "name": "mydevice",
+  "private": true,
+  "version": "2.0.0",
+  "description": "Detect and display your device's screen specifications — a tool for front-end developers and RWD designers",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "normalize:devices": "node scripts/normalize-devices.mjs",
+    "validate:devices": "node scripts/validate-devices.mjs",
+    "validate:devices:report": "node scripts/validate-devices.mjs --report",
+    "prebuild": "npm run validate:devices",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "device",
+    "screen",
+    "viewport",
+    "responsive",
+    "detection",
+    "pixel-ratio",
+    "css",
+    "html5"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "html2canvas": "^1.4.1",
+    "lucide-react": "^0.576.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-router-dom": "^7.13.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.3",
+    "@tailwindcss/vite": "^4.2.1",
+    "@types/node": "^25.3.5",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.4",
+    "eslint": "^9.39.3",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.4.0",
+    "tailwindcss": "^4.2.1",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.56.1",
+    "vite": "^7.3.1"
+  }
+}

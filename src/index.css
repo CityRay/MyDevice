@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+@import 'tailwindcss';
+
+/* Design tokens from original mydevice.io */
+@theme {
+  --color-primary: #23303f;
+  --color-primary-dark: #111922;
+  --color-accent: #c34c24;
+  --color-accent-hover: #a63d19;
+  --color-surface: #f4f0e8;
+  --color-surface-dark: #171b20;
+  --color-muted: #607080;
+  --color-danger: #e74c3c;
+  --color-success: #2f8f66;
+  --color-warning: #ce8a20;
+}
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  body {
+    @apply text-gray-900 dark:bg-surface-dark dark:text-gray-100;
+    font-family: 'IBM Plex Sans', 'Segoe UI', sans-serif;
+    background:
+      radial-gradient(circle at 15% -10%, rgb(195 76 36 / 11%), transparent 35%),
+      radial-gradient(circle at 90% 5%, rgb(35 48 63 / 10%), transparent 36%),
+      linear-gradient(180deg, #f8f5ee 0%, #efe9df 100%);
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3,
+  .font-display {
+    font-family: 'Fraunces', Georgia, serif;
+    letter-spacing: -0.01em;
+  }
+
+  code,
+  pre,
+  .font-mono {
+    font-family: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  }
+}
+
+/* Base styles */
+::selection {
+  @apply bg-accent/25;
+}
+
+@layer components {
+  .paper-panel {
+    @apply border border-black/5 bg-white/88 shadow-sm backdrop-blur-sm;
+  }
+
+  .editorial-kicker {
+    @apply text-[11px] font-semibold uppercase tracking-[0.22em] text-accent;
+  }
+
+  .editorial-rule {
+    @apply h-px w-14 bg-accent/55;
+  }
+}
+
+@layer utilities {
+  .noise-overlay {
+    background-image:
+      radial-gradient(rgb(16 22 30 / 6%) 0.35px, transparent 0.35px),
+      radial-gradient(rgb(16 22 30 / 3%) 0.35px, transparent 0.35px);
+    background-position:
+      0 0,
+      12px 12px;
+    background-size: 24px 24px;
+  }
+
+  .animate-fade-up {
+    animation: fadeUp 620ms ease-out both;
+  }
+
+  .animate-fade-up-delay {
+    animation: fadeUp 620ms 120ms ease-out both;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
